@@ -23,7 +23,7 @@ General usage:
 ```
 resize_images [[folder] [size]]
 ```
-Script will clone, then traverse `[folder]`, resizing all JPEGs and PNGs so the largest dimension is `[size]` pixels, preserving aspect ratio and saving the result as `[folder]_resized-[size]`.
+Script will clone, then traverse `[folder]`, resizing all JPEGs and PNGs so the largest dimension is `[size]` pixels, preserving aspect ratio and saving the result as `[folder]_resized-[size]`. The original folder is left untouched.
 
 ### Example
 
