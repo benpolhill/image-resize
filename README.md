@@ -24,9 +24,13 @@ General usage:
 resize_images [[folder] [size]]
 ```
 Script will clone, then traverse `[folder]`, resizing all JPEGs and PNGs so the largest dimension is `[size]` pixels, preserving aspect ratio and saving the result as `[folder]_resized-[size]`.
+
+### Example
+
 ```
-resize_images my_big_ones/ 640
+resize_images my_images/ 640
 ```
-will resize all images in the `my_big_ones` folder to largest dimension 640px, saving the result to `my_big_ones_resized-640`.
+will resize all images in the `my_images` folder to largest dimension 640px, saving the result to `my_images_resized-640`.
+
 If arguments are omitted, they will be prompted for.
 
