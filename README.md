@@ -28,6 +28,5 @@ Script will clone, then traverse `[folder]`, resizing all JPEGs and PNGs so the 
 resize_images my_big_ones/ 640
 ```
 will resize all images in the `my_big_ones` folder to largest dimension 640px, saving the result to `my_big_ones_resized-640`.
-```
 If arguments are omitted, they will be prompted for.
 
