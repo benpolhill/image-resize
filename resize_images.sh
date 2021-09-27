@@ -27,7 +27,7 @@ FOLDER=${FOLDER%/}
 # Exit if folder not found
 [ ! -d "$FOLDER" ] && echo "Folder not found. Exiting." && exit
 
-NEWFOLDER="${FOLDER}_resized-${SIZE}px"
+NEWFOLDER="${FOLDER}-${SIZE}w"
 
 # Confirm before proceeding
 echo "All images in '$FOLDER' will be copied to '$NEWFOLDER' and resized so the longest dimension is ${SIZE}px. Proceed? [Y/n]"
