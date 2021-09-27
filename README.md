@@ -30,7 +30,7 @@ Script will clone, then traverse `[folder]`, resizing all JPEGs and PNGs so the 
 ```
 resize_images my_images/ 640
 ```
-will resize all images in the `my_images` folder to largest dimension 640px, saving the result to `my_images-640w`.
+will resize all images in the `my_images` folder to largest dimension 640px, saving the result to `my_images-640`.
 
 If arguments are omitted, they will be prompted for.
 
