@@ -23,7 +23,7 @@ General usage:
 ```
 resize_images [[folder] [size]]
 ```
-Script will clone, then traverse `[folder]`, resizing all JPEGs and PNGs so the largest dimension is `[size]` pixels, preserving aspect ratio and saving the result as `[folder]-[size]w`. The original folder is left untouched. Imagemagick's `convert` does not upscale, so any images in the folder smaller than the target width will be ignored.
+Script will clone, then traverse `[folder]`, resizing all JPEGs and PNGs so the largest dimension is `[size]` pixels, preserving aspect ratio and saving the result as `[folder]-[size]`. The original folder is left untouched. Imagemagick's `convert` does not upscale, so any images in the folder smaller than the target width will be ignored.
 
 ### Example
 
